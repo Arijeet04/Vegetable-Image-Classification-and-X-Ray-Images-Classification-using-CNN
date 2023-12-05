@@ -48,6 +48,9 @@ From vegetable production to delivery, several common steps are operated manuall
 
 ![Screen Shot](accuracy.png)
 
+Predcition:
+![Screen Shot](prediction.png)
+
 X-Ray-Images-Classification:
 
 The normal chest X-ray (left panel) depicts clear lungs without any areas of abnormal opacification in the image. Bacterial pneumonia (middle) typically exhibits a focal lobar consolidation, in this case in the right upper lobe (white arrows), whereas viral pneumonia (right) manifests with a more diffuse ‘‘interstitial’’ pattern in both lungs. The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal). There are 5,863 X-Ray images (JPEG) and 2 categories (Pneumonia/Normal). 
