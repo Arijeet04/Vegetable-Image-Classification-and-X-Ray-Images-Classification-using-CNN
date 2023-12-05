@@ -42,16 +42,22 @@
 
 ![Screen Shot](images/screenshot.png)
 
-From vegetable production to delivery, several common steps are operated manually. Like picking, and sorting vegetables. Therefore, we decided to solve this problem using deep neural architecture, by developing a model that can detect and classify vegetables. That model can be implemented in different types of devices and can also solve other problems related to the identification of vegetables, like labeling the vegetables automatically without any need for human work.. We will use CNN to achieve this task: 
+Vegetable Image Classification :
 
+From vegetable production to delivery, several common steps are operated manually. Like picking, and sorting vegetables. Therefore, we decided to solve this problem using deep neural architecture, by developing a model that can detect and classify vegetables. That model can be implemented in different types of devices and can also solve other problems related to the identification of vegetables, like labeling the vegetables automatically without any need for human work.
+
+X-Ray-Images-Classification:
+The normal chest X-ray (left panel) depicts clear lungs without any areas of abnormal opacification in the image. Bacterial pneumonia (middle) typically exhibits a focal lobar consolidation, in this case in the right upper lobe (white arrows), whereas viral pneumonia (right) manifests with a more diffuse ‘‘interstitial’’ pattern in both lungs. The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal). There are 5,863 X-Ray images (JPEG) and 2 categories (Pneumonia/Normal). 
+
+We will use CNN to achieve this task: 
 
 Here's why:
 
-* 1) Dataset: In this dataset there are 21000 images from 15 classes, where each class contains a total of 1400 images. Each class has an equal proportion and image resolution is 224×224 and in *.jpg format. We split our dataset into three parts, where 70%(approx.) for training and 15%(approx.) for testing, and the rest 15%(approx.) for validation. 
+ 1) Dataset: In this dataset there are 21000 images from 15 classes, where each class contains a total of 1400 images. Each class has an equal proportion and image resolution is 224×224 and in *.jpg format. We split our dataset into three parts, where 70%(approx.) for training and 15%(approx.) for testing, and the rest 15%(approx.) for validation. 
 
-* 2) Process: Various image processing techniques are applied to the license plate image after identifying the plate. These include resizing, converting to grayscale, thresholding to create a binary image, erosion to remove boundary noise, dilation to fill absent pixels.CNN Model Creation: A Convolutional Neural Network (CNN) model is constructed for character recognition. The model comprises convolutional layers, max-pooling layers for downsampling, dropout layers for regularization, a flattening layer, and dense layers for classification. 
+ 2) Process: Various image processing techniques are applied to the license plate image after identifying the plate. These include resizing, converting to grayscale, thresholding to create a binary image, erosion to remove boundary noise, dilation to fill absent pixels.CNN Model Creation: A Convolutional Neural Network (CNN) model is constructed for character recognition. The model comprises convolutional layers, max-pooling layers for downsampling, dropout layers for regularization, a flattening layer, and dense layers for classification. 
 
-* 3)  Training the CNN Model: The CNN model is trained using the extracted characters as a dataset. The training involves using the Keras ImageDataGenerator class to generate augmented data to improve the model’s generalization. Width and height shifts are applied to augment the training dataset
+ 3)  Training the CNN Model: The CNN model is trained using the extracted characters as a dataset. The training involves using the Keras ImageDataGenerator class to generate augmented data to improve the model’s generalization. Width and height shifts are applied to augment the training dataset
 
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
