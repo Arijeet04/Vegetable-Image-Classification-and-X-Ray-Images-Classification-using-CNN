@@ -1,4 +1,3 @@
-# Vegetable-Image-Classification-and-X-Ray-Images-Classification-using-CNN
 <br/>
 <p align="center">
   <a href="https://github.com/ShaanCoding/ReadME-Generator">
@@ -6,7 +5,7 @@
     <img src="x-ray.png" alt="Logo" width="100" height="100">
   </a>
 
-  <h3 align="center">ReadME Generator</h3>
+  <h3 align="center">Vegetable-Image-Classification-and-X-Ray-Images-Classification-using-CNN</h3>
 
   <p align="center">
     An Awesome ReadME Generator To Jumpstart Your Projects!
