@@ -8,17 +8,17 @@
   <h3 align="center">Vegetable-Image-Classification-and-X-Ray-Images-Classification-using-CNN</h3>
 
   <p align="center">
-    An Awesome ReadME Generator To Jumpstart Your Projects!
+    IMAGE CLASSIFICATION MODEL USING DEEP NEURAL NETWORKS 
     <br/>
     <br/>
-    <a href="https://github.com/ShaanCoding/ReadME-Generator"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Arijeet04/Vegetable-Image-Classification-and-X-Ray-Images-Classification-using-CNN"><strong>»Explore the README</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/ShaanCoding/ReadME-Generator">View Demo</a>
+    <a href="https://github.com/Arijeet04/Vegetable-Image-Classification-and-X-Ray-Images-Classification-using-CNN">View Demo</a>
     .
-    <a href="https://github.com/ShaanCoding/ReadME-Generator/issues">Report Bug</a>
+    <a href="https://github.com/Arijeet04/Vegetable-Image-Classification-and-X-Ray-Images-Classification-using-CNN">Report Bug</a>
     .
-    <a href="https://github.com/ShaanCoding/ReadME-Generator/issues">Request Feature</a>
+    <a href="https://github.com/Arijeet04/Vegetable-Image-Classification-and-X-Ray-Images-Classification-using-CNN">Request Feature</a>
   </p>
 </p>
 
