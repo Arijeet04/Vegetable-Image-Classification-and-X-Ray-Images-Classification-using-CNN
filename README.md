@@ -141,7 +141,7 @@ Distributed under the MIT License. See [LICENSE](https://github.com/Arijeet04/Ve
 
 ## Authors
 
-* **Arijeet Das Chowdhury* - *Comp Sci Student* - [Arijeet Das Chowdhury](https://github.com/Arijeet04) - *Built ReadME Template*
+*Arijeet Das Chowdhury* - *Comp Sci Student* - [Arijeet Das Chowdhury](https://github.com/Arijeet04) - *Built ReadME Template*
 
 ## Acknowledgements
 
