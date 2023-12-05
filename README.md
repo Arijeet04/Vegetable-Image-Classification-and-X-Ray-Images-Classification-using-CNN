@@ -47,23 +47,22 @@ From vegetable production to delivery, several common steps are operated manuall
 
 Here's why:
 
-* Dataset:In this dataset there are 21000 images from 15 classes, where each class contains a total of 1400 images. Each class has an equal proportion and image resolution is 224×224 and in *.jpg format. We split our dataset into three parts, where 70%(approx.) for training and 15%(approx.) for testing, and the rest 15%(approx.) for validation. 
+* 1) Dataset: In this dataset there are 21000 images from 15 classes, where each class contains a total of 1400 images. Each class has an equal proportion and image resolution is 224×224 and in *.jpg format. We split our dataset into three parts, where 70%(approx.) for training and 15%(approx.) for testing, and the rest 15%(approx.) for validation. 
 
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+* 2) Process: Various image processing techniques are applied to the license plate image after identifying the plate. These include resizing, converting to grayscale, thresholding to create a binary image, erosion to remove boundary noise, dilation to fill absent pixels.CNN Model Creation: A Convolutional Neural Network (CNN) model is constructed for character recognition. The model comprises convolutional layers, max-pooling layers for downsampling, dropout layers for regularization, a flattening layer, and dense layers for classification. 
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+* 3)  Training the CNN Model: The CNN model is trained using the extracted characters as a dataset. The training involves using the Keras ImageDataGenerator class to generate augmented data to improve the model’s generalization. Width and height shifts are applied to augment the training dataset
+
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ## Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Python,Tensorflow,CNN,Keras
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+You just need to clone the repo and download the Dataset for classification
 
 ### Prerequisites
 
