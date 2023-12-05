@@ -40,7 +40,7 @@
 
 ## About The Project
 
-![Screen Shot](images/screenshot.png)
+![Screen Shot](images/about.png)
 
 Vegetable Image Classification :
 
